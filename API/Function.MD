@@ -2,17 +2,17 @@
 function manipulation
 
 > [!NOTE]
-> `(...any) -> ...any` represents a generic function
+> generic_function represents `(...any) -> ...any`
 
 ### new_cclosure
 ```luau
-new_cclosure(func: (...any) -> ...any): (...any) -> ...any
+new_cclosure(func: generic_function): generic_function
 ```
 returns a C closure that wraps the given function
 
 ### is_lclosure
 ```luau
-is_lclosure(func: (...any) -> ...any): boolean
+is_lclosure(func: generic_function): boolean
 ```
 returns true if the given function is a lua closure
 

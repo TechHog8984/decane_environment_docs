@@ -18,6 +18,6 @@ java_log(level: "INFO" | "WARN" | "ERROR" | "FATAL", ...: any)
 ```
 same as above, but calls the Minecraft logger's respective log method for the given level instead
 
-<- [Previous (API)](./README.MD)
+<- [Previous (decane)](./decane.MD)
 
 [Next (User)](./User.MD) ->

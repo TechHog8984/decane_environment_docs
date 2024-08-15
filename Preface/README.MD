@@ -5,7 +5,8 @@ Decane uses Luau, so all Luau globals are present (see https://lua.org/manual/5.
 
 However, the `os` and `debug` libraries are NOT.
 
-! All classes use UpperCamelCase, constants use UPPER_SNAKE_CASE, and all other globals use snake_case.
+> [!NOTE]  
+> All classes use UpperCamelCase, constants use UPPER_SNAKE_CASE, and all other globals use snake_case.
 
 On top of what Luau provides, there are additional third-party libraries packed into Decane used internally which are left exposed for the user:
 

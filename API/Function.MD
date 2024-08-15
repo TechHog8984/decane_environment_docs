@@ -1,7 +1,8 @@
 # Function
 function manipulation
 
-! `(...any) -> ...any` represents a generic function
+> [!NOTE]
+> `(...any) -> ...any` represents a generic function
 
 ### new_cclosure
 ```luau

@@ -29,15 +29,16 @@ disconnects the connection
 
 ### decane.events
 * `on_chat(content: string, message_id: number): boolean?`<br>
-example:
-    ```luau
-    -- block all messages starting with a period
-    decane.events.on_chat:Connect(function(content, message_id)
-        if content:sub(1,1) == '.' then
-            return true
-        end
-    end)
-    ```
+    message_id is a number unique to every chat message. it is a simple counter increasing by one after every message sent (including blocked ones)<br>
+    > example:
+    > ```luau
+    > -- block all messages starting with a period
+    > decane.events.on_chat:Connect(function(content, message_id)
+    >    if content:sub(1,1) == '.' then
+    >        return true
+    >    end
+    >end)
+    >```
 
 
 <- [Previous (API)](./README.MD)

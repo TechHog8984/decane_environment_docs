@@ -1,6 +1,9 @@
 # Table
 table manipulation
 
+> [!NOTE]
+> `{}` represents a generic table
+
 ### set_read_only
 ```luau
 set_read_only(table: {}, value: boolean): {}
